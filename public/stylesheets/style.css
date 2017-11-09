@@ -1,0 +1,36 @@
+h1 {
+ font-size: 2em;
+ margin: 0;
+}
+
+body {
+ background: linear-gradient(to right, #1D4E89, #4fa49a);
+ font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+ padding: 50px;
+}
+
+a {
+ color: #00B7FF;
+}
+
+section.main {
+ color: #fff;
+ text-align: center;
+}
+
+form[name="match-form"] {
+ 
+}
+
+input[type="submit"] {
+ border: 0px;
+ border-radius: 0px;
+}
+
+input[type="submit"]:hover {
+ cursor: pointer;
+}
+
+input {
+ font-size: 1.2em;
+}

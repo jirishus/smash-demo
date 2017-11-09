@@ -1,0 +1,14 @@
+html
+ head
+  link(rel="stylesheet", href="/stylesheets/style.css")
+  title= title
+ body
+  section.main
+    h1 Service Match
+    p we find services near you that match your tastes!
+    <form name="match-form">
+      <label for=""></label>
+      <input type="text" id="match-input" placeholder="valet, dry-cleaning, ..." required />
+      <input type="submit" value="Find Match" />
+    </form>
+  script(src="/javascripts/custom.js")
