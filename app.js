@@ -34,6 +34,7 @@ app.post('/matches', function(req, res) {
   var queryResult = '';
 
   console.log('update');
+  console.log('another update');
 
   // this could go in a function called - findMatch
   for (var i=0;i<currentServices.length;i++) {
