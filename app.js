@@ -33,6 +33,8 @@ app.post('/matches', function(req, res) {
   var currentServices = ['valet', 'massage', 'delievery', 'consulting'];
   var queryResult = '';
 
+  console.log('update');
+
   // this could go in a function called - findMatch
   for (var i=0;i<currentServices.length;i++) {
     let searchQuery = (userInput.searchText.toLowerCase() === currentServices[i]);
